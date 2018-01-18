@@ -70,7 +70,7 @@ function generateCards(int $numberOfCards) : array
                         break;
                 }
             }
-            shuffle($deck);
+
         }
         return $deck;
     } else {
